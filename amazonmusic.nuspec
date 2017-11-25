@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>amazonmusic</id>
+    <version>6.1.4.1205</version>
+    <packageSourceUrl>https://github.com/technerdpdx/chocoamazonmusic</packageSourceUrl>
+	<owners>Kilometers</owners>
+    <title>amazonmusic (Install)</title>
+    <authors>Amazon</authors>
+    <copyright> 2007 - 2017</copyright>
+	<iconUrl>https://images-na.ssl-images-amazon.com/images/G/01/digital/music/logos/amzn_music_logo_subnav._CB507452008_.png</iconUrl>
+    <projectUrl>https://www.amazon.com/Amazon-Music-Apps/b?ie=UTF8&node=2658409011</projectUrl>
+	<licenseUrl>https://www.amazon.com/gp/help/customer/display.html?nodeId=201380010</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.amazon.com/gp/help/customer/display.html?nodeId=201594400</docsUrl>
+    <tags>amazonmusic Music Amazon</tags>
+    <summary>This is the Amazon Music desktop app for Windows. You can use this to stream and download music that is available through amazon subscriptions.</summary>
+    <description>
+		Amazon Music Desktop app 
+		
+			Lets you play, manage and download all your music with ease and convenience.
+			With Prime Music, members can enjoy a growing selection of two million songs, playlists, and stations - always ad-free and included with your Prime membership.
+			With Amazon Music Unlimited – unlock even more. Listen to tens of millions of songs with weekly new releases.
+			Amazon Music for PC is fast. It'll get you from launch to play in seconds.
+			Amazon Music for PC detects and adds new music to your library even if you bought it from iTunes or ripped a CD. Your music library will always be organized and up-to-date.
+			System Requirements: Windows 7 and later
+		
+		This app will install to %localappdata%\Amazon Music
+		
+	</description>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
